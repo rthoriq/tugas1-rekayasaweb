@@ -1,0 +1,102 @@
+/* src/App.css */
+.container {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.produk-grid {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.kartu-produk {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  flex: 1;
+}
+
+.kartu-produk h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.harga {
+  color: #2ecc71;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.keranjang {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px dashed #ccc;
+}
+
+.keranjang ul {
+  list-style-type: none; /* Menghilangkan titik (bullet) bawaan html */
+  padding: 0;
+}
+
+.keranjang li {
+  display: flex;
+  justify-content: space-between; /* Membuat nama buku dan tombol saling menjauh */
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Gaya khusus untuk tombol hapus */
+.btn-hapus {
+  background-color: #e74c3c; /* Warna merah */
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+
+.btn-hapus:hover {
+  background-color: #c0392b;
+}
+
+/* Gaya khusus untuk tombol konfirmasi */
+.btn-konfirmasi {
+  background-color: #27ae60; /* Warna hijau */
+  width: 100%;
+  font-size: 1.1em;
+  padding: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.btn-konfirmasi:hover {
+  background-color: #2ecc71;
+}
