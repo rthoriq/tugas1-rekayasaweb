@@ -11,10 +11,10 @@ function App() {
     <div>
       <h1>Toko Buku Kekinian</h1>
 
-      <nav>
-        <Link to="/toko1">Toko 1</Link> |{" "}
-        <Link to="/toko2">Toko 2</Link> |{" "}
-        <Link to="/profile">Profile</Link>
+      <nav className="navbar1">
+        <Link to="/toko1" className="navbar">Toko 1</Link> |{" "}
+        <Link to="/toko2" className="navbar">Toko 2</Link> |{" "}
+        <Link to="/profile" className="navbar">Profile</Link>
       </nav>
 
       <Routes>

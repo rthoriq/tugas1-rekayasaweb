@@ -5,7 +5,27 @@
   margin: 0 auto;
   padding: 20px;
 }
+.navbar {
 
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s;
+  font-family: Arial, sans-serif;
+  max-width: 8000px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.navbar1 {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.262);
+}
 .header {
   text-align: center;
   border-bottom: 2px solid #eee;

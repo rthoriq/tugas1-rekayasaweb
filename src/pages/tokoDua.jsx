@@ -8,7 +8,7 @@ function TokoDua() {
 
     return (
         <div className="container">
-            <h2>Toko Dua</h2>
+            <h2>Daftar Buku Pilihan Toko Dua</h2>
 
             <div className="produk-grid">
                 {daftarBarang.map((barang) => (
