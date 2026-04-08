@@ -9,14 +9,14 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>Toko Buku Kekinian</h1>
-
-      <nav className="navbar1">
+      <h2>Toko Buku Kekinian</h2>
+      <h3>
+        <nav className="navbar1">
         <Link to="/toko1" className="navbar">Toko 1</Link> |{" "}
         <Link to="/toko2" className="navbar">Toko 2</Link> |{" "}
         <Link to="/profile" className="navbar">Profile</Link>
-      </nav>
-
+        </nav>
+      </h3>
       <Routes>
         <Route path="/toko1" element={<TokoSatu />} />
         <Route path="/toko2" element={<TokoDua />} />

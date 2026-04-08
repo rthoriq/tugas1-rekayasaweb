@@ -6,7 +6,6 @@
   padding: 20px;
 }
 .navbar {
-
   color: rgb(0, 0, 0);
   transition: background-color 0.3s;
   font-family: Arial, sans-serif;
@@ -18,6 +17,9 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+}
+.navbar:hover{
+  background-color:rgba(100, 100, 100, 0.243);
 }
 .navbar1 {
   font-family: Arial, sans-serif;
